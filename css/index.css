@@ -1,0 +1,307 @@
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth ;
+}
+body {
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header {
+    display: flex;
+    position: relative;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_title {
+    padding-bottom: 25px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 130%;
+    text-align: center;
+    color: white;
+}
+
+.sub_title {
+    font-weight: bold;
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header_arrow {
+    transition-duration: 1s;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 48px;
+    height: 48px;
+}
+
+.shape_img {
+    width: 100px;
+    height: 65px;
+}
+
+.portfolio {
+    background-color: #E0E0E0;
+    padding-top: 80px;
+    padding-bottom: 115px;
+}
+
+.portfolio_header {
+    margin: 0;
+    margin-bottom: 70px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 130%;
+    color: black;
+    text-align: center;
+}
+
+.portfolio_cards_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    max-width: 540px;
+    margin-bottom: 30px;
+    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+    background-color: white;
+    
+}
+.card_link{
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    transition-duration: 0.6s;
+}
+.card_link:hover{
+    color: rgb(39, 91, 236);
+    transform: translateY(-15px);
+  
+
+}
+
+.card:last-child, .card:nth-last-child(2) {
+    margin-bottom: 0;
+    margin-bottom: 0;
+}
+
+.card_img {
+
+}
+
+.card_title {
+    font-family: Montserrat;
+    margin: 0;
+    margin-bottom: 13px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    
+}
+
+.card_title p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 130%;
+   
+}
+
+.footer {
+    color: white;
+    background-color: #1E4776;
+    padding-top: 45px;
+    padding-bottom: 130px;
+}
+
+.footer_copyright {
+    display: flex;
+    justify-content: space-between;
+    color: #7E9EC9;
+    line-height: 1.3;
+}
+
+.footer_copyright_name {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 130%;
+    margin-bottom: 15px;
+}
+
+.footer_copyright_name p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.footer_icons {
+    max-width: 350px;
+}
+
+.footer_icons_row {
+    display: flex;
+    align-items: center;
+}
+
+.footer_icons p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    color: white;
+}
+
+.footer_icons_row > * + * {
+    margin-left: 30px;
+}
+
+.footer_contacts {
+    max-width: 350px;
+}
+
+.footer_button {
+    font-weight: 700;
+    font-size: 16px;
+    transition-duration: 0.6s;
+    line-height: 1.3;
+    text-transform: uppercase;
+    border: 3px solid #FFFFFF;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    padding: 14px 30px;
+}
+
+.footer_contacts p {
+    padding-top: 16px;
+    margin: 15px 0;
+    color: #7E9EC9;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.svg-icon {
+    width: 26px;
+    height: 26px;
+    fill: #ffffff;
+    transition-duration: 0.6s;
+}
+
+/* Тут ниже, для каждой иконки можешь подогнать размер, вроде .svg-icon--facebook { width: n; height: n; } */
+
+.svg-icon--insta{
+    width: 24.4px;
+height: 29.31px;
+}
+.svg-icon--vk{
+    width: 31.46px;
+height: 28px;
+}
+.svg-icon--github{
+    width: 27.17px;
+    height: 28px; 
+}
+
+.footer_button:hover{
+    color:#275BEC;
+    background-color: white; ;
+}
+
+
+.svg-icon--insta:hover {
+    fill: blueviolet;
+}
+.svg-icon--facebook:hover{
+    fill: blueviolet;
+}
+.svg-icon--vk:hover{
+    fill: blueviolet;
+}
+.svg-icon--linkedin:hover{
+    fill: blueviolet;
+}
+.svg-icon--github:hover{
+    fill: blueviolet;
+}
+.project {
+padding-top: 80px;
+padding-bottom: 120px;
+text-align: center;
+}
+.container {
+
+}
+.project_header {
+    margin: 0;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.3;
+    text-align: center;
+}
+.project_img {
+    margin-bottom: 70px;
+
+}
+.project_description {
+    margin: 0 auto 60px;
+max-width: 730px;
+}
+.project_description p{
+
+    margin-top: 0;
+    margin-bottom: 15px;
+font-size: 16px;
+line-height: 1.5;
+color: #000000;
+}
+.project-btn-back{
+    font-weight: 700;
+    font-size: 16px;
+    transition-duration: 0.6s;
+    line-height: 1.3;
+    text-transform: uppercase;
+    border: 3px solid #275BEC;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #275BEC;
+    padding: 14px 30px;
+}
+
+.project-btn-back:hover{
+    background-color: #275BEC;
+    color: white;
+}
