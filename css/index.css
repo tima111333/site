@@ -24,6 +24,7 @@ img{
 }
 
 .header {
+    background-image: url(../img/notebook.png);
     display: flex;
     position: relative;
     background-size: cover;
